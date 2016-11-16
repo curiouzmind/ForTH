@@ -1,0 +1,19 @@
+@extends('master')
+@section('content')
+<div class="col-md-3 login">
+	<div class="panel panel-default" data-toggle="panel-collapse" data-open="true">
+        <div class="panel-heading panel-collapse-trigger">
+            <h4 class="panel-title">My Account</h4>
+            </div>
+            <div class="panel-body list-group">
+              <ul class="list-group list-group-menu">
+                <li class="list-group-item active"><a class="link-text-color" href="#">Dashboard</a></li>
+                <li class="list-group-item"><a class="link-text-color" href="#">My Courses</a></li>
+                <li class="list-group-item"><a class="link-text-color" href="#">Profile</a></li>
+                <li class="list-group-item"><a class="link-text-color" href="#">Messages</a></li>
+                <li class="list-group-item"><a class="link-text-color" href="#"><span>Logout</span></a></li>
+              </ul>
+            </div>
+          </div>
+</div>
+@endsection

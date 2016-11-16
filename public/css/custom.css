@@ -1,0 +1,14 @@
+label {
+    margin-top: 7px;
+    width: 100%;
+    color: #000;
+    font-family: Varela Round;
+    font-size: 14px;
+    letter-spacing: 0.0725em;
+}
+.panel-default>.panel-heading {
+	background-color:#0DFF54;
+}
+.login {
+	padding-top : 40px;
+}
